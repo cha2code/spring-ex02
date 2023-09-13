@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+	font-family: 'Gowun Dodum'
+}
+
+.avatar-sm {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.jumbotron {
+	
+	background-image: url('../../resources/images/christmas.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;	
+}
+
+/* nav menu background color custom */
+.bg-primary {
+  background-color: darkred !important;
+}
+
+.btn {
+	
+	background-color: darkred;
+	border: none;
+	color: white;
+}
