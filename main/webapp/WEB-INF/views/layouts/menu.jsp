@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 
 <nav class="navbar navbar-expand-md bg-primary navbar-dark sticky-top">
-	<a class="navbar-brand" href="#"> <i class="fa-solid fa-tree"></i>
+	<a class="navbar-brand" href="/"> <i class="fa-solid fa-tree"></i>
 		Christmas
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -14,18 +14,17 @@
 		>
 		<!-- 좌측 메뉴 구성 -->
 		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link" href="#">메뉴1</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">메뉴2</a></li>
+			<li class="nav-item"><a class="nav-link" href="/board/list">게시판</a></li>
+			<li class="nav-item"><a class="nav-link" href="/board/travel">여행</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">메뉴3</a></li>
 		</ul>
 		<!-- 우측 메뉴 -->
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item"><a class="nav-link" href="#"> <img
-					src="https://randomuser.me/api/portraits/lego/7.jpg"
-					class="avatar-sm" />  cha2jini
+			<li class="nav-item"><a class="nav-link" href="#">
+			<img src="https://randomuser.me/api/portraits/lego/7.jpg" class="avatar-sm" />  cha2jini
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="#"> <i
-					class="fa-solid fa-right-from-bracket"></i> 로그아웃
+			<li class="nav-item"><a class="nav-link" href="#">
+			<i class="fa-solid fa-right-from-bracket"></i> 로그아웃
 			</a></li>
 		</ul>
 	</div>

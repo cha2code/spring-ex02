@@ -5,7 +5,6 @@ import java.util.List;
 import org.barista.domain.BoardVO;
 import org.barista.domain.Criteria;
 import org.barista.mapper.BoardMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
@@ -16,7 +15,7 @@ import lombok.extern.log4j.Log4j;
 @AllArgsConstructor
 public class BoardServiceImpl implements BoardService {
 
-	@Autowired
+	//@Autowired
 	private BoardMapper mapper;
 	
 	@Override
@@ -58,6 +57,14 @@ public class BoardServiceImpl implements BoardService {
 		log.info("get List with criteria: " + cri);
 		
 		return mapper.getListWithPaging(cri);
+	}
+
+	@Override
+	public int getTotal(Criteria cri) {
+		
+		log.info("get total count");
+		
+		return mapper.getTotalCount(cri);
 	}
 
 }

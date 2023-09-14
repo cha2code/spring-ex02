@@ -19,6 +19,10 @@
 	color: white;	
 }
 
+a.page-link {
+	border-width: 0px;
+}
+
 /* nav menu background color custom */
 .bg-primary {
   background-color: darkred !important;

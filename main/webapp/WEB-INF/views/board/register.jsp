@@ -29,7 +29,6 @@
 	<i class="far fa-edit"></i> Board Register
 </h1>
 <div class="panel panel-default">
-	<div class="panel-heading">board Register</div>
 	<div class="panel-body">
 		<form role="form" method="post">
 			<div class="form-group">
@@ -45,12 +44,14 @@
 			</div>
 
 			<button type="submit" class="btn btn-primary">
-				<i class="fas fa-undo"></i>확인
+				<i class="fa-solid fa-check"></i> 확인
 			</button>
 			<button type="reset" class="btn btn-primary">
-				<i class="fas fa-undo"></i>취소
+				<i class="fas fa-undo"></i> 취소
 			</button>
-			<a href="list" class="btn btn-primary"> <i class="fas fa-list"></i>목록
+			<!-- href:url이 아닌 javascript로 실행 -->
+			<!-- 상황에 따라 적절하게 사용해야 함 (예외 상황도 있음) -->
+			<a href="javascript:history.back()" class="btn btn-primary"> <i class="fas fa-list"></i> 목록
 			</a>
 		</form>
 	</div>
