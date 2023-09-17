@@ -1,6 +1,5 @@
 package org.barista.controller;
 
-import org.barista.domain.BoardVO;
 import org.barista.domain.Criteria;
 import org.barista.domain.PageDTO;
 import org.barista.domain.TravelVO;
@@ -75,7 +74,7 @@ public class TravelController {
 			
 		service.remove(no);
 		
-		return "redirect:" +cri.getLink();
+		return "redirect:/travel/list" +cri.getLink();
 	}
 
 }
